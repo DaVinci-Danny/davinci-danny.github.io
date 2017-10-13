@@ -13,6 +13,7 @@ ul.top {
 
 li.top {
   float: left;
+  z-index: 6;
 }
 
 li.top a {
@@ -22,15 +23,18 @@ li.top a {
   padding: 14px 16px;
   text-decoration: none;
   font-family: Oswald, sans-serif;
+  z-index: 7;
 }
 
 /* Change the link color to #111 (black) on hover */
 li.top a:hover {
   background-color: #111;
+  z-index: 7;
 }
 
 .active {
   background-color: #4CAF50;
+  z-index: 7;
 }
 
 /*
