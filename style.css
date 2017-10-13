@@ -103,7 +103,8 @@ h2.home {
 
 img.home {
   position: relative;
-  left: 30%;
+  display: block;
+  margin: 0 auto;
   z-index: 2;
 }
 
