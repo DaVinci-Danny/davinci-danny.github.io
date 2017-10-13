@@ -8,6 +8,7 @@ ul.top {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 5;
 }
 
 li.top {
@@ -99,6 +100,7 @@ h2.home {
 img.home {
   position: relative;
   left: 30%;
+  z-index: 2;
 }
 
 div.overview p {
