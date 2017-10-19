@@ -93,6 +93,13 @@ h1.home {
   text-align: center;
 }
 
+h4.overview {
+	font-family: Oswald, sans-serif;
+  margin-left: 25%;
+  margin-right: 25%;
+  word-wrap: break-word;
+}
+
 h2.home {
   padding-top: 50px;
   font-family: Oswald, sans-serif;
