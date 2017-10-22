@@ -13,7 +13,6 @@ ul.top {
 
 li.top {
   float: left;
-  z-index: 6;
 }
 
 li.top a {
@@ -23,18 +22,15 @@ li.top a {
   padding: 14px 16px;
   text-decoration: none;
   font-family: Oswald, sans-serif;
-  z-index: 7;
 }
 
 /* Change the link color to #111 (black) on hover */
 li.top a:hover {
   background-color: #111;
-  z-index: 7;
 }
 
 .active {
   background-color: #4CAF50;
-  z-index: 7;
 }
 
 /*
@@ -91,13 +87,6 @@ h1.home {
   margin-right: 25%;
   max-width: 50%;
   text-align: center;
-}
-
-h4.overview {
-  font-family: Oswald, sans-serif;
-  margin-left: 25%;
-  margin-right: 25%;
-  word-wrap: break-word;
 }
 
 h2.home {
@@ -161,7 +150,8 @@ div.introd p {
   font-family: Oswlad, sans-serif;
   margin-left: 25%;
   margin-right: 25%;
-  word-wrap: break-word
+  word-wrap: break-word;
+  position: absolute;  
 }
 
 .bib {
@@ -178,5 +168,57 @@ div.introd p {
 All further style sheeting will be done below here!
 */
 
+div.introd thead {
+  background-color: lightblue;
+}
 
+div.introd th {
+  font-family: Oswlad, sans-serif;
+  word-wrap: break-word;
+}
 
+div.introd table {
+  border-collapse: collapse;
+  position: absolute;
+  float: left;
+  word-wrap: break-word;
+  height: auto;
+  width: 13%;
+  left: 5%;
+}
+
+div.introd tr { 
+  border: solid;
+  border-width: 1px 0;
+}
+
+div.overview thead {
+  background-color: lightblue;
+}
+
+div.overview th {
+  font-family: Oswlad, sans-serif;
+  word-wrap: break-word;
+}
+
+div.overview table {
+  border-collapse: collapse;
+  position: absolute;
+  float: left;
+  word-wrap: break-word;
+  height: auto;
+  width: 13%;
+  left: 5%;
+}
+
+div.overview tr { 
+  border: solid;
+  border-width: 1px 0;
+}
+
+h4 {
+  font-family: Oswlad, sans-serif;
+  margin-left: 25%;
+  margin-right: 25%;
+  word-wrap: break-word;
+}
